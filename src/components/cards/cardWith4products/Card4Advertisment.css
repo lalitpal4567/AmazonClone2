@@ -1,0 +1,39 @@
+.main-container-4ads{
+    padding: 15px 20px;
+    width: 290px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: space-between;
+}
+.main-container-4ads a{
+    text-decoration: none;
+}
+@media (max-width: 400px) {
+    .main-container-4ads{
+        transform: scale(1.3);
+    }
+}
+.inner-container-4ads{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.inner-container-4ads a{
+    color: black;
+    overflow: hidden;
+}
+.inner-container-4ads img{
+    width: 119px;
+    height: 102px;
+    transform:scaleX(1.1);
+}
+.item-offers-4ads{
+    color: dodgerblue;
+    font-size: 12px;
+    font-weight: 500;
+}

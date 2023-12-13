@@ -1,0 +1,11 @@
+.star-icon{
+    color: orange;
+    outline-color: orange;
+}
+.stars{
+    margin-right: 5px;
+}
+.ratings{
+    margin-left: 5px;
+    color: #007185;
+}

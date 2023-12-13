@@ -1,0 +1,47 @@
+.filter-heading{
+    margin-bottom: 10px;
+}
+.input-checkbox{
+    width: 17px;
+    height: 17px;
+}
+.input-checkbox:hover{
+    outline: 3px solid dodgerblue;
+    outline-offset: -4px;
+    
+}
+.checkbox-label{
+    margin-left: 5px;
+}
+.checkbox-label:hover{
+    color: rgb(202, 131, 0);
+    cursor: pointer;
+}
+.custom-input-price{
+    display: flex;
+    column-gap: 5px;
+    margin-top: 10px;
+}
+.price-value{
+    width: 70px;
+    padding: 6px 13px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.price-value:focus{
+    outline: 2px solid skyblue;
+}
+.price-button{
+    padding: 7px 10px;
+    background-color: white;
+    border: 1px solid rgb(225, 225, 225);
+    border-radius: 5px;
+}
+
+.price-wise-categories ul li{
+    color: black;
+}
+.price-wise-categories ul li:hover{
+    color: rgb(211, 138, 3);
+    cursor: pointer;
+}

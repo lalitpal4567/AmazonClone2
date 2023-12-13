@@ -1,0 +1,21 @@
+.cart-buy-main-container{
+    padding: 20px 20px;
+    background-color: white;
+}
+.cart-inner-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 900px) {
+    .cart-inner-container{
+        flex-wrap: wrap;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .cart-inner-container{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,103 @@
+.product-info-shopping-cart{
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid rgb(227, 227, 227);
+    column-gap: 20px;
+}
+.checkbox-shopping-cart{
+    margin: auto;
+}
+.left-section-shopping-cart{
+    width: 220px;
+}
+.right-section-shopping-cart{
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.product-discription-shopping-cart{
+    font-size: 18px;
+    font-weight: 500;
+    /* height: 55px; */
+    overflow: hidden;
+}
+.product-offer-shopping-cart-container{
+    display: flex;
+    color: rgb(204,12,57);
+    font-size: 13px;
+    font-weight: 500;
+    align-items: center;
+    column-gap: 5px;
+}
+.product-offer-shopping-cart{
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 3px;
+    padding: 4px 5px;
+    background-color: rgb(204,12,57);
+}
+#current-price{
+    font-size: 19px;
+    font-weight: bold;
+}
+#current-price span{
+    font-size: 15px;
+}
+#stock-shopping-cart{
+    font-size: 12px;
+    color: green;
+    font-weight: 500;
+}
+.product-quantity-shopping-cart{
+    display: flex;
+}
+.product-quantity-shopping-cart select{
+    padding: 7px 20px;
+    background-color: rgb(240,242,242);
+    border-radius: 7px;
+    box-shadow: 1px 3px 3px 3px rgba(230, 230, 230, 0.32);
+    border: 1px solid rgb(215, 215, 215);
+    cursor: pointer;
+}
+.delete-btn-shopping-cart{
+    background-color: transparent;
+    border: 0px;
+    margin-left: 10px;
+    background-color: dodgerblue;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.delete-btn-shopping-cart:hover{
+    background-color: rgb(86, 169, 252);
+}
+
+.product-price-stock{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+    .product-info-shopping-cart{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 800px) {
+    .product-info-shopping-cart{
+        flex-direction: column;
+    }
+    .product-offer-shopping-cart-container{
+        display: none;
+    }
+    .right-section-shopping-cart{
+        row-gap: 20px;
+    }
+    .left-section-shopping-cart{
+        display: block;
+        margin: auto;
+    }
+}

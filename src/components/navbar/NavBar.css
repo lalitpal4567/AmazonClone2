@@ -1,0 +1,242 @@
+
+.zxvls3-navbar-sec{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 3px 5px;
+    color: white;
+    flex-wrap: wrap;
+    row-gap: 5px;
+}
+
+.zxvls3-navbar-sec a{
+    text-decoration: none;
+    color: white;
+}
+.zxvls3-address-logo-sec{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+.zxvls3-logo-sec{
+    display: flex;
+    margin-left: 7px;
+}
+.zxvls3-logo-container{
+    display: flex;
+}
+.zxvls3-amazon-logo{
+    width: 100px;
+    height: 35px;
+}
+
+.zxvls3-user-address{
+    display: flex;
+    align-items: end;
+    column-gap: 5px;
+}
+
+.zxvls3-nav-line1{
+    font-size: 12px;
+    color: rgb(215, 215, 215);
+    font-weight: 600;
+}
+.zxvls3-nav-line2{
+    font-size: 14px;
+    font-weight: bold;
+}
+.zxvls3-search-sec{
+    display: flex;
+    align-items: center;
+    min-width: 350px;
+    flex: 1;
+}
+
+.zxvls3-dropdown-menu{
+    color: black;
+    font-size: 13px;
+    background-color: rgb(221, 221, 221);
+    padding: 12px 11px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    display: flex;
+    align-items: center;
+    column-gap: 9px;
+}
+.zxvls3-dropdown-menu img{
+    width: 7px;
+}
+.zxvls3-dropdown-menu:hover{
+    cursor: pointer;
+    background-color: rgb(192, 192, 192);
+}
+.zxvls3-search-input{
+    width: 100%;
+    padding: 11px 10px;
+    outline-color: rgb(255, 198, 92);
+    font-size: 17px;
+    border-radius: 0px;
+    border: none;
+}
+.zxvls3-search-icon-box{
+    background-color: rgb(255, 194, 81);
+    padding: 11px 15px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+.zxvls3-search-icon{
+    width: 20px;
+}
+.zxvls3-search-icon-box:hover{
+    cursor: pointer;
+    background-color: rgb(255, 176, 28);
+}
+/* --------------------------- */
+.zxvls3-signcard-sec{
+    display: flex;
+    column-gap: 5px;
+    height: 50px;
+    margin-left: 10px;
+}
+.zxvls3-language{
+    display: flex;
+    column-gap: 4px;
+    align-items: center;
+}
+.zxvls3-selection-dropdown{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.zxvls3-language img{
+    width: 25px;
+}
+.zxvls3-account-signin{
+    display: flex;
+    align-items: center;
+}
+.zxvls3-order-purchase{
+    display: flex;
+    align-items: center;
+}
+.zxvls3-shopping-cart{
+    display: flex;
+    align-items: center;
+    column-gap: 3px;
+    position: relative;
+    margin-right: 8px;
+}
+.zxvls3-shopping-cart img{
+    width: 35px;
+}
+.zxvls3-shopping-cart h3{
+    position: absolute;
+    top: 1px;
+    left: 19px;
+    color: orange;
+}
+
+.zxvls3-link{
+    padding: 2px 5px;
+    transition: all;
+    transition-timing-function: linear;
+}
+.zxvls3-link:hover{
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: white;
+    border-radius: 2px;
+}
+
+/* second navbar */
+.zxvls3-navbar-sec2{
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 10px; 
+    font-size: 14px;
+    font-weight: 600;
+}
+.zxvls3-amazon-services{
+    text-decoration: none;
+    color: white;
+    padding: 10px 7px;
+}
+#zxvls3-side-bar{
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+    padding: 7px 5px;
+}
+#zxvls3-side-bar:hover{
+    cursor: pointer;
+}
+#zxvls3-side-bar img{
+    width: 20px;
+}
+.zxvls3-navbar-sec2 #zxvls3-side-bar:hover, .zxvls3-amazon-services:hover{
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: white;
+    border-radius: 2px;
+}
+.zxvls3-hamburger-icon{
+    font-size: 20px;
+}
+
+
+.zxvls3-hover-message{
+    width: 200px;
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 53px;
+    right: 95px;
+    z-index: 2;
+    color: black;
+    text-align: center;
+
+}
+.zxvls3-hover-message ul{
+    list-style: none;
+}
+.zxvls3-hover-message-link{
+    font-size: 15px;
+    font-weight: 600;
+}
+.zxvls3-overlay-on-hover{
+    display: none;
+}
+.zxvls3-active-overlay{
+    position: absolute;
+    top: 94px;
+    left: 0px;
+    width: 100%;
+    height: 481px;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.zxvls3-user-account-sec{
+    display: none;
+}
+@media (max-width: 500px) {
+    .zxvls3-address-link, .zxvls3-language span, .zxvls3-selection-dropdown , .zxvls3-check-user-account{
+        display: none;
+    }
+    .zxvls3-shopping-cart{
+        align-content: flex-start;
+    }
+    .zxvls3-search-sec{
+        order: 1;
+    }
+    .zxvls3-user-account-sec{
+        display: contents;
+        display: flex;
+        column-gap: 5px;
+    }
+    
+}

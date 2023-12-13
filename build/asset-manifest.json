@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/AmazonWithMERN/static/css/main.e4d4e18f.css",
+    "main.js": "/AmazonWithMERN/static/js/main.c899091c.js",
+    "index.html": "/AmazonWithMERN/index.html",
+    "main.e4d4e18f.css.map": "/AmazonWithMERN/static/css/main.e4d4e18f.css.map",
+    "main.c899091c.js.map": "/AmazonWithMERN/static/js/main.c899091c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4d4e18f.css",
+    "static/js/main.c899091c.js"
+  ]
+}

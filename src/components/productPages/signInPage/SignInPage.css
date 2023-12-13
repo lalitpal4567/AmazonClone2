@@ -1,0 +1,126 @@
+.main-container-signin-page{
+    width: 100%;
+    margin: auto;
+    background-color: white;
+}
+.main-container-signin-page img{
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+
+.sign-in-page{
+    border: 2px solid rgb(239, 239, 239);
+    width: 350px;
+    padding: 20px 25px;
+    margin: auto;
+    border-radius: 7px;
+}
+.signin-title{
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.email-mobile-input-signin label{
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.email-input-signin{
+    padding: 5px 5px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-bottom: 12px;
+}
+.email-input-signin:focus{
+    outline: 3px solid skyblue;
+}
+.login-btn-signin{
+    display: block;
+    width: 100%;
+    padding: 7px 0px;
+    border-radius: 8px;
+    background-color: rgb(255, 223, 82);
+    border: 0px;
+    margin-bottom: 20px;
+}
+.login-btn-signin:hover{
+    background-color:  rgb(255, 214, 31);
+    cursor: pointer;
+}
+.terms-conditions-signin a{
+    text-decoration: none;
+    color: rgb(1, 127, 253);
+}
+.terms-conditions-signin{
+    font-size: 13px;
+}
+.login-help-signin{
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.login-help-signin a{
+    text-decoration: none;
+}
+.login-help-signin summary{
+    margin-bottom: 8px;
+}
+.login-help-signin ul{
+    margin-left: 10px;
+}
+.login-help-signin ul li{
+    list-style: none;
+    color: rgb(0, 120, 179);
+    margin-bottom: 8px;
+}
+summary:hover, .login-help-signin ul li:hover{
+    color: rgb(184, 0, 0);
+    border-bottom: 1px solid rgb(184, 0, 0);;
+}
+
+.signup-link-signin{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    row-gap: 50px;
+    align-items: center;
+}
+.signup-link-signin p{
+    font-size: 13px;
+    color: rgb(92, 92, 92);
+}
+#signup-btn-signin{
+    display: block;
+    width: 350px;
+    padding: 5px 5px;
+    border-radius: 7px;
+    background-color:  white;
+    border: 1px solid rgb(197, 197, 197);
+    margin: 10px auto 30px auto;
+}
+#signup-btn-signin a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-footer-signin{
+    font-size: 12px;
+    padding: 20px 0px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    
+}
+.navbar-footer-signin ul{
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    list-style: none;
+    margin-bottom: 10px;
+}
+.navbar-footer-signin ul li a{
+    text-decoration: none;
+    color: rgb(0, 120, 179);
+}

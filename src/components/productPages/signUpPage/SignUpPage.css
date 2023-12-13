@@ -1,0 +1,92 @@
+.main-containerbox{
+    padding: 14px 18px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: white;
+}
+.signup-form{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    border: 2px solid rgb(239, 239, 239);
+    padding: 15px 18px;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+.amazon-logo-signup img{
+    width: 145px;
+    display: block;
+    margin: auto;
+}
+.signup-title{
+    font-size: 28px;
+    font-weight: 400;
+}
+.form-input{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.label-title{
+    font-size: 13px;
+    font-weight: bold;
+}
+.dial-code{
+    border-radius: 8px;
+    padding: 0px 5px;
+    border: 1px solid rgb(224, 224, 224);
+    box-shadow: 0px 2px 2px 2px rgb(229, 229, 229, 0.2);
+}
+.input-boxx{
+    padding: 7px 5px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.input-boxx:focus{
+    outline: 3px solid rgb(165, 219, 240);
+}
+.mobile-input{
+    display: flex;
+    justify-content: space-between;
+}
+.message-info{
+    font-size: .8rem;
+    font-weight: 500;
+}
+.contact-number-input{
+    width: 220px;
+}
+.continue-btn{
+    width: 100%;
+    padding: 7px 5px;
+    border-radius: 7px;
+    background-color:  rgb(255, 217, 0);
+    border: 0px;
+    margin: 10px auto 10px auto;
+}
+.password-warning{
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.navbar-footer-signin{
+    font-size: 12px;
+    padding: 20px 0px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    
+}
+.navbar-footer-signin ul{
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    list-style: none;
+    margin-bottom: 10px;
+}
+.navbar-footer-signin ul li a{
+    text-decoration: none;
+    color: rgb(0, 117, 176);
+}

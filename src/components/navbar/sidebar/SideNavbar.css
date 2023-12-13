@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main-navbar-container4{
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    height: 100vh;
+    width: 365px;
+}
+.side-nav-bar{
+    border: 1px solid black;
+}
+.user-signin-container{
+    display: block;
+    background-color: #232f3e;
+    height: 50px;
+}
+
+.user-icon0{
+    font-size: 25px;
+    color: white;
+}
+.sign-in-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 180px;
+    padding: 10px 0px;
+    margin: 0px 25px;
+}
+.sign-in-box p{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+.services-links{
+    padding: 15px 0px;
+}
+.category-title{
+    font-size: 17px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+.category-lists{
+    height: 45px;
+    padding: 7px 20px 5px 30px;
+    font-size: 14px;
+}
+.services-links ul{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.services-links ul li a{
+    text-decoration: none;
+    font-weight: 500;
+    display: block;
+
+}
+.line-break2{
+    margin-bottom: 20px;
+}
+.category-lists a:focus{
+    outline-offset: 10px;
+    outline-color: skyblue;
+}
+.exit-button{
+    position: absolute;
+    top: 15px;
+    right:-80px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.overlay{
+    position: fixed;
+    top: 0px;
+    z-index: 6;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(88, 90, 87, 0.854);
+}
