@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/AmazonClone-Frontend-ReactJS/static/css/main.baba5f3b.css",
-    "main.js": "/AmazonClone-Frontend-ReactJS/static/js/main.339cbead.js",
-    "index.html": "/AmazonClone-Frontend-ReactJS/index.html",
-    "main.baba5f3b.css.map": "/AmazonClone-Frontend-ReactJS/static/css/main.baba5f3b.css.map",
-    "main.339cbead.js.map": "/AmazonClone-Frontend-ReactJS/static/js/main.339cbead.js.map"
+    "main.css": "/HostTesting/static/css/main.baba5f3b.css",
+    "main.js": "/HostTesting/static/js/main.339cbead.js",
+    "index.html": "/HostTesting/index.html",
+    "main.baba5f3b.css.map": "/HostTesting/static/css/main.baba5f3b.css.map",
+    "main.339cbead.js.map": "/HostTesting/static/js/main.339cbead.js.map"
   },
   "entrypoints": [
     "static/css/main.baba5f3b.css",
